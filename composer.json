@@ -24,7 +24,8 @@
     "require": {
         "php": "~5.3",
         "simplesamlphp/saml2": "~0.3",
-        "simplesamlphp/xmlseclibs": "~1.3.2"
+        "simplesamlphp/xmlseclibs": "~1.3.2",
+        "evseevnn/php-cassandra-binary": "dev-master#31fa28eb756e5d06470a1e4ae4698d44250231b8"
     },
     "support": {
         "issues": "https://github.com/simplesamlphp/simplesamlphp/issues",
