@@ -108,7 +108,7 @@ class SimpleSAML_Store_Cassandra extends SimpleSAML_Store {
 			"value"	=> $value
 		];
 		$query = 'INSERT INTO "session" (type, key, value) VALUES (:type, :key, :value)';
-		echo "About to insert \n"; print_r($query); print_r($params); echo "\n\n";
+		// echo "About to insert \n"; print_r($query); print_r($params); echo "\n\n";
 		$result = $this->db->query($query, $params);
 
 
