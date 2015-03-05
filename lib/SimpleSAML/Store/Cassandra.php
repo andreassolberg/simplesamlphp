@@ -134,7 +134,7 @@ class SimpleSAML_Store_Cassandra extends SimpleSAML_Store {
 			"key"	=> $key
 		];
 		$query = 'DELETE FROM "session" WHERE (type = :type AND key = :key)';
-		echo "About to delete \n"; print_r($query); print_r($params); echo "\n\n";
+		// echo "About to delete \n"; print_r($query); print_r($params); echo "\n\n";
 		$result = $this->db->query($query, $params);
 
 	}
